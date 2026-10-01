@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HoneyShield security operations center and threat intelligence">
+  <meta name="color-scheme" content="dark">
+  <title>{% block title %}HoneyShield — Security Operations{% endblock %}</title>
+  <link rel="stylesheet" href="/static/css/app.css">
+  {% block head_extra %}{% endblock %}
+</head>
+<body>
+  {% block content %}{% endblock %}
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    {% block toast_message %}Dashboard refreshed with live telemetry.{% endblock %}
+  </div>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>

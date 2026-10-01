@@ -1,0 +1,6 @@
+{
+  "name": "HoneyShield — Threat Intelligence & Security Operations",
+  "description": "AI-assisted honeypot intelligence, real-time credential attack telemetry, automated risk classification, and security operations toolkit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
